@@ -23,6 +23,7 @@ a.read {
 a.read:hover{
     color: #189a46;
 }
+
 /*header*/
 .navbar.fixed-top {
     position: fixed;
@@ -222,5 +223,62 @@ a.read:hover{
 .Services .col-items h3:hover{
     color: #189a46;
 }
+.choose_us_box .col-md-6 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.choose_us_box .col-lg-6{
+    align-self: center;
+}
+.choose_us_box .col-lg-6 .cont-4 li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000c04;
+    margin: 15px 0;
+    font-weight: 600;
+    list-style: none;
+}
+.choose_us_box .col-lg-6 .cont-4 li span {
+    color: #189a46;
+    margin-right: 12px;
+    background:rgb(147 107 232 / 5%);
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.choose_us_box .col-lg-6 .cont-4 {
+    padding-left: 0px;
+}
 
 
+/*-------------*/
+.number {
+    background: #189a46;
+    padding: 80px 0 50px;
+    text-align: center;
+}
+.number__content {
+    display: flex;
+    justify-content: space-around;
+}
+.number__item p:first-of-type {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.number__item h4{
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}

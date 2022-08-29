@@ -1,4 +1,226 @@
-.number__content {
-    display: flex;
-    justify-content: space-around;
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+    font-family: 'Jost', sans-serif;
 }
+a.read {
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid #189a46;
+    color: #000c04;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border-radius: 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+a.read:hover{
+    color: #189a46;
+}
+/*header*/
+.navbar.fixed-top {
+    position: fixed;
+    top: 40px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 20px;
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.nav-item:hover a {
+    color: green;
+}
+
+.nav .nav-item::after {
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: green;
+    display: block;
+    transition: all .5s;
+}
+
+.nav .nav-item:hover:after {
+    width: 90%;
+}
+
+/* carousel */
+.carousel-inner .carousel-item img {
+    filter: brightness(70%);
+}
+.carousel-item .carousel-caption {
+    position: absolute;
+    top: 38%;
+    left: 13%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    max-width: 700px;
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.carousel-caption p {
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+}
+.carousel-caption .btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #189a46;
+}
+.carousel .carousel-indicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    background-color: white;
+}
+.carousel .carousel-indicators button:hover{
+   background-color: #189a46;
+}
+
+/*-----------------------------*/
+
+
+
+.carousel-caption-new{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    max-width: 700px;
+    text-align: left;
+}
+
+.carousel-caption-new h5 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+}
+.carousel-caption-new p {
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+}
+.carousel-caption-new .btn-style {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #189a46;
+}
+/*header*/
+
+/* About us */
+.w3l-grids-3 .bottom-ab-grids.align-items-center {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+}
+.sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: tomato;
+}
+.hny-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+/* <!-- Services --> */
+.Services{
+    background-color: rgb(147 107 232 / 5%);
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 70px;
+}
+.Services .col-items{
+    padding: 40px 30px;
+    transition: all 0.5s ease 0s;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.Services .col-items:hover{
+    background-color: rgb(147 107 232 / 5%);
+}
+.Services .col-items i{
+    color: #189a46;
+    font-size: 30px;
+}
+.Services .col-items h3{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+    color: #000c04;
+    transition: all 0.5s;
+}
+.Services .col-items h3:hover{
+    color: #189a46;
+}
+
+

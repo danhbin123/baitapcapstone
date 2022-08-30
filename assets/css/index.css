@@ -23,8 +23,9 @@ a.read {
 a.read:hover{
     color: #189a46;
 }
-
-/*header*/
+.navbar .nav-item{
+    padding-inline: -1 12px ;
+}
 .navbar.fixed-top {
     position: fixed;
     top: 40px;
@@ -40,6 +41,7 @@ a.read:hover{
     font-size: 34px;
     font-weight: 600;
     text-transform: capitalize;
+    color:#189a46 ;
 }
 
 .navbar-nav {
@@ -54,8 +56,12 @@ a.read:hover{
     color: black;
 }
 
+.nav-item .nav-link.active {
+    color: #189a46;
+}
+
 .nav-item:hover a {
-    color: green;
+    color: #189a46;
 }
 
 .nav .nav-item::after {
@@ -70,10 +76,34 @@ a.read:hover{
 .nav .nav-item:hover:after {
     width: 90%;
 }
+.nav-item .dropdown-menu li a {
+    color: #000c04;
+}
+.dropdown-menu .dropdown-item::after{
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: green;
+    display: block;
+    transition: all .5s;
+}
+.dropdown-menu .dropdown-item:hover:after{
+    width: 90%;
+}
 
 /* carousel */
 .carousel-inner .carousel-item img {
     filter: brightness(70%);
+}
+.carousel-inner .carousel-item .btn-transparent {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.carousel-inner .carousel-item .btn-transparent:hover{
+    background-color:white;
+    color:#189a46;
+
 }
 .carousel-item .carousel-caption {
     position: absolute;
@@ -111,6 +141,12 @@ a.read:hover{
     background-color: #fff;
     color: #189a46;
 }
+.carousel-caption .btn-style:hover {
+    background-color: #fff;
+    color: #189a46;
+}
+
+
 .carousel .carousel-indicators button{
     width: 20px;
     height: 20px;
@@ -161,6 +197,10 @@ a.read:hover{
     background-color: #fff;
     color: #189a46;
 }
+.carousel-caption-new .btn-style:hover {
+    background-color: #fff;
+    color: #189a46;
+}
 /*header*/
 
 /* About us */
@@ -186,18 +226,15 @@ a.read:hover{
 /* <!-- Services --> */
 .Services{
     background-color: rgb(147 107 232 / 5%);
+    padding: 48px 0;
 }
-.row {
-    display:flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    padding: 70px;
+.Services .container{
+    padding: 48px 0;
 }
 .Services .col-items{
     padding: 40px 30px;
     transition: all 0.5s ease 0s;
-    border-radius: var(--border-radius);
+    border-radius: 10px;
     background-color: #fff;
     position: relative;
     margin-bottom: 30px;
@@ -223,6 +260,11 @@ a.read:hover{
 .Services .col-items h3:hover{
     color: #189a46;
 }
+
+
+
+
+/*-----------*/
 .choose_us_box .col-md-6 img{
     max-width: 100%;
     height: auto;
@@ -253,7 +295,12 @@ a.read:hover{
 .choose_us_box .col-lg-6 .cont-4 {
     padding-left: 0px;
 }
-
+.choose_us_box .container{
+    padding: 48px 0;
+}
+.choose_us_box{
+    padding: 48px 0;
+}
 
 /*-------------*/
 .number {

@@ -29,8 +29,15 @@
 .dark-theme .dropdown-menu .dropdown-item {
     color: white;
 }
-
-
+.dark-theme .Services .col-items h3{
+    color: white;
+} 
+.dark-theme .Services .col-items a {
+    color: white;
+}
+.dark-theme .Services .col-items:hover a{
+    color: green;
+}
 
 #switchButton .fa-moon{
     display: none;

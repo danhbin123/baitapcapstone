@@ -25,3 +25,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+//Video popup
+$(function () {
+  $('#vidBox').VideoPopUp({
+      backgroundColor:"#000000",
+      opener: "video-trigger",
+      idvideo: "video1",
+      pausevideo:true
+  });
+});
